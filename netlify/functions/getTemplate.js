@@ -15,7 +15,7 @@ exports.handler = async (event) => {
     // ctx.body = data;
     return {
       statusCode: 200,
-      body: data,
+      body: {data},
     };
   } catch (e) {
     return {
