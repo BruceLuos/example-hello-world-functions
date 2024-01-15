@@ -51,5 +51,14 @@ npm install -g netlify-cli
 netlify dev
 
 ```
+# luo-cli脚手架服务端
+获取脚手架所有模版代码
 
+# 访问
+https://luo-cli-server.netlify.app/api/template
 
+## 数据库
+使用云mongodb,
+```
+mongodbDbName = luo-cli
+```
